@@ -5,12 +5,9 @@ const MoralisLogo = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <Image
-      src={colorMode === 'dark' ? '/Moralis-DarkBG.svg' : '/Moralis-LightBG.svg'}
-      height={45}
-      width={150}
-      alt="Moralis"
-    />
+    <>
+      <Image src={'/ruby-clipart-18_scale.webp'} height={45} width={60} alt="RubySwap" />
+    </>
   );
 };
 

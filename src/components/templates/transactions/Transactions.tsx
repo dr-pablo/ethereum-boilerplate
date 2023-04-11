@@ -30,9 +30,10 @@ const Transactions = () => {
 
   return (
     <>
-      <Heading size="lg" marginBottom={6}>
-        Transactions
+      <Heading size="lg" marginBottom={3}>
+        Swap
       </Heading>
+      <p>swap your favorite assets with minimal slippage and efficient routing</p>
       {transactions?.length ? (
         <Box border="2px" borderColor={hoverTrColor} borderRadius="xl" padding="24px 18px">
           <TableContainer w={'full'}>
